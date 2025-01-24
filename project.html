@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" version="5">
+<head>
+<title>Basic HTML Page</title>
+<meta charset="UTF-8">
+<meta name="description" content="Simple HTML">
+<meta name="keywords" content="Jigar Sutaria, Simple HTML">
+<meta name="author" content="jigar Sutaria">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Simple HTML" />
+<meta property="og:description" content="Simple HTML" />
+<meta property="og:type" content="resume" />
+<meta property="og:url" content="https://linkedin.com/en/jigarsutaria" />
+<meta property="og:url" content="https://linkedin.com/en/jigarsutaria" />
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+nav {
+  float: right;
+  padding: 20px;
+  display: flex;
+  font-size: small;
+}
+
+a{
+    font-size: small;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+article {
+  float: left;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+
+/* Style the footer */
+footer {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<main style="border-style: solid; border-width: 2pt;">
+<header style="border-style: none;">
+    <div  style="display: table; width: 100%;">
+        <div style="display: table-row" >
+            <div style="display: table-cell;float: left; vertical-align: top;" >Jigar Sutaria</div>
+            <div style="display: table-cell;float:right">
+                <nav><a href="./home.html">Home</a> / <a href="./project.html">Projects</a> / <a href="./articles.html">Articles</a> / <a href="./contact.html">Contact</a></nav>   
+            </div> 
+        </div>
+        <div style="display: table-row; column-span: all; " >            
+            <div style="display: table-cell" >
+                <h4>Front End Developer</h4>
+            </div>
+        </div>
+    </div>
+ </div>
+</header>
+
+<section style="height: 100%; width:100%; display: flex;  height: max-content;">
+  <article style="width:100%;  border-style: solid; border-width: 1pt; height: auto;">
+    <h1 style="padding: 1%; border-bottom: 1pt; border-bottom-style: solid;">Projects</h1>
+    <p style="padding: 1%; border-bottom: 1pt; border-bottom-style: solid;">Single Page CV</p>
+    <p>The goal of this project is to teach you how to create a structured, single-page CV using only HTML. You will focus on laying out your education, skills, and career history in a clean, semantic manner. Styling will be addressed in a later project.</p>
+    <p style="padding: 1%; border-bottom: 1pt; border-bottom-style: solid;">Simple HTML</p>
+    <p>Goal of this project is to teach you how to structure a website using HTML i.e. different sections of a website like header, footer, navigation, main content, sidebars etc. Do not style the website, only focus on the structure. Styling will be done in separate projects.</p>
+</article>
+ </section>
+
+<footer style="width: 100%; border-style: none;">
+  <p>(c) All rights reserved 2025</p>
+</footer>
+</main>
+</body>
+</html>
+
